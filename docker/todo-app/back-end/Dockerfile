@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-WORKDIR /todo-app/backend
+WORKDIR /todo-app/backend/
 
 ADD node_modules.tar.gz .
 
